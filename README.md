@@ -26,3 +26,17 @@ Add it in your root build.gradle at the end of repositories:
   # Step 3. And your main code you can use it like
   
   
+
+public class MainActivity extends SuccessToast  {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        s(this);
+
+    }
+
+
+}
