@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_toast_layout_id_success"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#388E3C"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/image_Success"
+        android:src="@drawable/success"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/text_Success"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="Success"
+        android:gravity="center"
+        android:textColor="#000" />
+
+</LinearLayout>
